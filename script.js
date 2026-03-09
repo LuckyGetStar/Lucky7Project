@@ -130,7 +130,7 @@ scene.innerHTML=`
 
 <button onclick="startGame()">Nongkrong sampe subuh</button>
 <button onclick="startGame()">Makan sampe gendut</button>
-<button onclick="sweetMessage()">Pesan manis</button>
+<button onclick="sweetMessage()">Kata-kata manis</button>
 
 `
 
@@ -295,7 +295,7 @@ scene.innerHTML = `
 
 let t1 = "Dia cantik...";
 let t2 = "Pinter...";
-let t3 = "Tapi dia lagi bad mood (gatau deh sekarang) 😔";
+let t3 = "Tapi dia lagi badmood (gatau deh sekarang) 😔";
 
 let i=0, j=0, k=0;
 
@@ -340,7 +340,7 @@ function storySlide3(){
 
 scene.innerHTML=`
 
-<h3>Kenapa ya dia bad mood?</h3>
+<h3>Kenapa ya dia badmood?</h3>
 
 <button onclick="storySlide4()">Banyak tugas 📚</button>
 <button onclick="storySlide4()">Capek 😩</button>
@@ -372,7 +372,7 @@ function storySlide5(){
 scene.innerHTML = `
 <h3>Aku mencoba cara pertama...</h3>
 
-<p>Kenapa ayam nyebrang jalan?</p>
+<p>Kenapa ayam suka tiba2 nyebrang jalan?</p>
 
 <button id="btnJawaban" onclick="showAnswer()" disabled>Lihat Jawaban</button>
 
@@ -400,7 +400,7 @@ let countdown = setInterval(function(){
 function showAnswer(){
 
 scene.innerHTML = `
-<h3>Karena dia mau liat kamu senyum di seberang sana 😆</h3>
+<h3>Karena.... dia mau liat kamu senyum di seberang sana 😆</h3>
 
 <button onclick="storySlide6()">Next</button>
 `;
@@ -664,5 +664,6 @@ scene.innerHTML=`
 `
 
 }
+
 
 showOpening()
