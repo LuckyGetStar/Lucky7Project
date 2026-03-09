@@ -35,11 +35,11 @@ scene.innerHTML=`
 
 <h2>Halo Clarisaaa!</h2>
 
-<p>Aku dengar kamu lagi bad mood kemaren.</p>
+<p>Aku dengar kamu lagi badmood kemaren.</p>
 
 <p>Jadi aku buat game kecil untuk balikin mood kamu.</p>
 
-<p>🐱 Hai Clarisa! Aku akan membantu memperbaiki mood kamu!</p>
+<p>🕷️ Hai Clarisa! Kenalin aku spiderman!</p>
 
 <button onclick="startMission()">Start Mission</button>
 
@@ -220,7 +220,7 @@ let moodNow=Math.min(100,parseInt(moodStart)+score*4)
 
 scene.innerHTML=`
 
-<h2>Mood Rescue Result</h2>
+<h2>MoodBoster Untuk Kamu</h2>
 
 <p>Mood awal : ${moodStart}%</p>
 
@@ -667,3 +667,4 @@ scene.innerHTML=`
 
 
 showOpening()
+
