@@ -115,8 +115,8 @@ scene.innerHTML=`
 <h3>Siapa cewek paling manis sejogja?</h3>
 
 <button onclick="quiz2()">Clarisa</button>
-<button onclick="quiz2()">Tania</button>
 <button onclick="quiz2()">Betha</button>
+<button onclick="quiz2()">Tania</button>
 
 `
 
@@ -220,7 +220,7 @@ let moodNow=Math.min(100,parseInt(moodStart)+score*4)
 
 scene.innerHTML=`
 
-<h2>MoodBoster Untuk Kamu</h2>
+<h2>MoodBooster Untuk Kamu</h2>
 
 <p>Mood awal : ${moodStart}%</p>
 
@@ -452,7 +452,7 @@ scene.innerHTML=`
 <h3>Baiklah… ini yang terakhir.</h3>
 
 <button id="dontClick" style="font-size:20px;padding:18px 30px;">
-JANGAN DIKLIK
+TOLONG DIKLIK
 </button>
 
 `
@@ -658,7 +658,7 @@ function happy(){
 
 scene.innerHTML=`
 
-<h2>Nah gitu dong, pinter dehh... Clarisa yang orang kenal itu harus selalu happy 😊
+<h2>Nah gitu dongg, pinter dehh... Clarisa yang orang kenal itu harus selalu happy 😊
 (Bumi mendung kalau kamu sedih, badai kalau mau nangis, dan gempa kalau kamu tantrum)</h2>
 
 `
@@ -667,5 +667,6 @@ scene.innerHTML=`
 
 
 showOpening()
+
 
 
