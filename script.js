@@ -39,7 +39,7 @@ scene.innerHTML=`
 
 <p>Jadi aku buat game kecil untuk balikin mood kamu.</p>
 
-<p>🕷️ Hai Clarisa! Kenalin aku spiderman!</p>
+<p>🕷️ Hai Clarisa! Kenalin aku Spiderman!</p>
 
 <button onclick="startMission()">Start Mission</button>
 
@@ -342,7 +342,7 @@ scene.innerHTML=`
 
 <h3>Kenapa ya dia badmood?</h3>
 
-<button onclick="storySlide4()">Banyak tugas 📚</button>
+<button onclick="storySlide4()">Kangen Rumah 🥺</button>
 <button onclick="storySlide4()">Capek 😩</button>
 <button onclick="storySlide4()">Lapar 🍜</button>
 <button onclick="storySlide4()">Ada yang bikin kesel 😤</button>
@@ -519,7 +519,7 @@ nextLine()
 
 setTimeout(()=>{
 
-typeLine("Bikin kamu senyum lagi 🙂", ()=>{
+typeLine("Bikin kamu senyum 😄", ()=>{
 setTimeout(storySlide9,1500)
 })
 
@@ -659,7 +659,7 @@ function happy(){
 scene.innerHTML=`
 
 <h2>Nah gitu dong, pinter dehh... Clarisa yang orang kenal itu harus selalu happy 😊
-(Bumi mendung kalau kamu sedih, badai kalau mau nangis, gempa kalau kamu tantrum)</h2>
+(Bumi mendung kalau kamu sedih, badai kalau mau nangis, dan gempa kalau kamu tantrum)</h2>
 
 `
 
@@ -667,4 +667,5 @@ scene.innerHTML=`
 
 
 showOpening()
+
 
